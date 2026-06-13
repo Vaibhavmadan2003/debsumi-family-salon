@@ -3,12 +3,12 @@ const Services = () => {
   const services = [
     { icon: '💄', title: 'Makeup', desc: 'Professional makeup for all occasions' },
     { icon: '✂️', title: 'Hair Styling', desc: 'Hair cut, styling, and treatment' },
+    { icon: '💇', title: 'Boys Haircut', desc: 'Professional boys haircut & styling' },
+    { icon: '🪒', title: 'Shaving', desc: 'Clean shaving and grooming' },
     { icon: '💅', title: 'Nail Extension', desc: 'Nail art and extension services' },
     { icon: '👰', title: 'Bridal Services', desc: 'Complete bridal makeup & hair' },
     { icon: '💆', title: 'Face Therapy', desc: 'Hydra therapy, glass facial' },
     { icon: '💅', title: 'Waxing', desc: 'Threading, waxing & bleach' },
-    { icon: '💇', title: 'Hair Spa', desc: 'Hair treatment & protein therapy' },
-    { icon: '🧖', title: 'Body Massage', desc: 'Relaxing body massage' },
   ];
   return (
     <section id="services" className="py-20 bg-gradient-to-br from-pink-50 to-purple-50">
